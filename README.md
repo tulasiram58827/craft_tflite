@@ -9,6 +9,8 @@ This is the github repository for converting craft pretrained model to tflite ve
  - `tflite_inference.py` - Inference with converted tflite model.
  - `craft_inference.py` - Inference with Pytorch Pretrained model.
  
+ Pretrained model can be downloaded from [here](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
+ 
 ### References
 
 Some portions of the code are taken from [this repo](https://github.com/clovaai/CRAFT-pytorch)
