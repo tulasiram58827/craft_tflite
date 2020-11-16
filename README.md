@@ -26,9 +26,13 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  
  <div align=center><img src="./result/res_000.jpg" width="300"/></div>
  
- ##### TFLITE MODEL OUTPUT
+ ##### TFLITE MODEL OUTPUT (DYNAMIC QUANTIZATION)
  
- <div align=center><img src="./result/tflite_inference.jpg" width="300"/></div>  
+ <div align=center><img src="./result/tflite_inference.jpg" width="300"/></div> 
+ 
+ ##### TFLITE MODEL OUTPUT(FLOAT 16 QUANTIZATION)
+ 
+ <div align=center><img src="./scripts/result/res_000.jpg" width="300"/></div> 
  
 ### References
 
@@ -44,5 +48,3 @@ Some portions of the code are taken from [this repo](https://github.com/clovaai/
   year={2019}
 }
 ```
- 
- 
