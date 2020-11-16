@@ -1,3 +1,8 @@
+"""
+Authors
+ * Tulasi Ram
+"""
+
 import sys
 import os
 import time
@@ -137,7 +142,6 @@ if __name__ == '__main__':
     t = time.time()
     count = 0
     # load data
-    for k, image_path in enumerate(image_list):
         print("Test image {:d}/{:d}: {:s}".format(k+1, len(image_list), image_path), end='\r')
         image = imgproc.loadImage(image_path)
 
