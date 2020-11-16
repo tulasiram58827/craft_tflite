@@ -2,11 +2,11 @@
 
 This is the github repository for converting craft pretrained model to tflite version and to provide an inference code using the tflite model.
 
-Please find the original paper [here](https://arxiv.org/abs/1904.01941)
+The CRAFT model is proposed in this [paper](https://arxiv.org/abs/1904.01941).
 
 # About CRAFT
 
-PyTorch implementation for CRAFT text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores.
+The CRAFT model is a text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores.
 
 
 ### About the files
@@ -33,5 +33,16 @@ PyTorch implementation for CRAFT text detector that effectively detect text area
 ### References
 
 Some portions of the code are taken from [this repo](https://github.com/clovaai/CRAFT-pytorch)
+
+## Citation
+```
+@inproceedings{baek2019character,
+  title={Character Region Awareness for Text Detection},
+  author={Baek, Youngmin and Lee, Bado and Han, Dongyoon and Yun, Sangdoo and Lee, Hwalsuk},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={9365--9374},
+  year={2019}
+}
+```
  
  
