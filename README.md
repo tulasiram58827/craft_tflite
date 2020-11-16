@@ -10,25 +10,36 @@ The CRAFT model is a text detector that effectively detect text area by explorin
 
 
 ### About the files
+ ```
+ ├── scripts
+     ├── pytorch_to_onnx.py      --> Converts pretrained pytorch model to onnx.
+     ├── onnx_to_tflite.py       --> Converts Onnx to TFLITE
+     ├── tflite_inference.py     --> Inference with converted tflite model.
+     ├── craft_inference.py      --> Inference with Pytorch Pretrained model.
+  
+  Corresponding `ipynb` files are provided in `colabs` folder.
 
- - `pytorch_to_onnx.py` - Converts pretrained pytorch model to onnx.
- - `onnx_to_tflite.py` - Converts Onnx to TFLITE
- - `tflite_inference.py` - Inference with converted tflite model.
- - `craft_inference.py` - Inference with Pytorch Pretrained model.
+ ├── models
+    ├──  craft_mlt_25k.pth       --> Model trained on SynthText, IC13, IC17
+    ├──  craft.tflite            --> TFLite Model (Dynamic Quantization)
+    ├──  craft_float16.tflite    --> TFLite Model(Float16 Quantization)
+ ```
  
  Pretrained model can be downloaded from [here](https://drive.google.com/uc?export=download&id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
- 
- Corresponding `ipynb` files are also provided.
- 
+  
  ### Results
  
  ##### PYTORCH MODEL OUTPUT                                                  
  
  <div align=center><img src="./result/res_000.jpg" width="300"/></div>
  
- ##### TFLITE MODEL OUTPUT
+ ##### TFLITE MODEL OUTPUT (DYNAMIC QUANTIZATION)
  
- <div align=center><img src="./result/tflite_inference.jpg" width="300"/></div>  
+ <div align=center><img src="./result/tflite_inference.jpg" width="300"/></div> 
+ 
+ ##### TFLITE MODEL OUTPUT(FLOAT 16 QUANTIZATION)
+ 
+ <div align=center><img src="./scripts/result/res_000.jpg" width="300"/></div> 
  
 ### References
 
@@ -44,5 +55,3 @@ Some portions of the code are taken from [this repo](https://github.com/clovaai/
   year={2019}
 }
 ```
- 
- 
