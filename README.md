@@ -45,7 +45,7 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  
  ##### DYNAMIC QUANTIZED TFLITE MODEL
  
-  <div align=center><img src="./benchmark_images/tflite_dynamic.png" width="300"/></div> 
+  <div align=center><img src="./benchmark_images/tflite_dynamic.png" width="600"/></div> 
 
 ### References
 
