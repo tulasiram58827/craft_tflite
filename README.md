@@ -22,6 +22,14 @@ PyTorch implementation for CRAFT text detector that effectively detect text area
  
  ### Results
  
+ ##### PYTORCH MODEL OUTPUT                                                  
+ 
+ <div align=center><img src="./result/res_000.jpg" width="300"/></div>
+ 
+ ##### TFLITE MODEL OUTPUT
+ 
+ <div align=center><img src="./result/tflite_inference.jpg" width="300"/></div>  
+ 
 ### References
 
 Some portions of the code are taken from [this repo](https://github.com/clovaai/CRAFT-pytorch)
