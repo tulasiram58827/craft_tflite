@@ -16,7 +16,7 @@ PyTorch implementation for CRAFT text detector that effectively detect text area
  - `tflite_inference.py` - Inference with converted tflite model.
  - `craft_inference.py` - Inference with Pytorch Pretrained model.
  
- Pretrained model can be downloaded from [here](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
+ Pretrained model can be downloaded from [here](https://drive.google.com/uc?export=download&id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
  
  Corresponding `ipynb` files are also provided.
  
