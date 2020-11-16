@@ -11,6 +11,6 @@ This is the github repository for converting craft pretrained model to tflite ve
  
 ### References
 
-Some portions of the code are taken from [this repo](!https://github.com/clovaai/CRAFT-pytorch)
+Some portions of the code are taken from [this repo](https://github.com/clovaai/CRAFT-pytorch)
  
  
