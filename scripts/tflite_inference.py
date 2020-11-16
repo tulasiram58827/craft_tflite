@@ -29,7 +29,7 @@ result_folder = './result/'
 def run_tflite_model(input_data):
     print(input_data.shape)
     # Load the TFLite model and allocate tensors.
-    interpreter = tf.lite.Interpreter(model_path="craft.tflite")
+    interpreter = tf.lite.Interpreter(model_path="../models/craft_float16.tflite")
     interpreter.allocate_tensors()
 
     # Get input and output tensors.

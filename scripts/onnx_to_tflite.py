@@ -11,13 +11,13 @@ from onnx_tf.backend import prepare
 
 
 # Export model to tensorflow
-onnx_model = onnx.load('craft.onnx')
+onnx_model = onnx.load('../models/craft.onnx')
 tf_rep = prepare(onnx_model)
-tf_rep.export_graph('craft.pb')
+tf_rep.export_graph('../models/craft.pb')
 
 print("Model converted to tensorflow graph succesfully.")
 
-loaded = tf.saved_model.load('craft.pb')
+loaded = tf.saved_model.load('../models/craft.pb')
 
 concrete_func = loaded.signatures[tf.saved_model.DEFAULT_SERVING_SIGNATURE_DEF_KEY]
 
