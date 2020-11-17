@@ -44,7 +44,7 @@ def str2bool(v):
     return v.lower() in ("yes", "y", "true", "t", "1")
 
 parser = argparse.ArgumentParser(description='CRAFT Text Detection')
-parser.add_argument('--trained_model', default='craft_mlt_25k.pth', type=str, help='pretrained model')
+parser.add_argument('--trained_model', default='../models/craft_mlt_25k.pth', type=str, help='pretrained model')
 parser.add_argument('--text_threshold', default=0.7, type=float, help='text confidence threshold')
 parser.add_argument('--low_text', default=0.4, type=float, help='text low-bound score')
 parser.add_argument('--link_threshold', default=0.4, type=float, help='link confidence threshold')
@@ -142,7 +142,7 @@ if __name__ == '__main__':
     t = time.time()
     count = 0
     # load data
-        print("Test image {:d}/{:d}: {:s}".format(k+1, len(image_list), image_path), end='\r')
+    for image_path in image_list:
         image = imgproc.loadImage(image_path)
 
         bboxes, polys, score_text = test_net(net, image, args.text_threshold, args.link_threshold, args.low_text, args.cuda, args.poly, None)
