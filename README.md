@@ -39,7 +39,11 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  
  ##### TFLITE MODEL OUTPUT(FLOAT 16 QUANTIZATION)
  
- <div align=center><img src="./scripts/result/res_000.jpg" width="300"/></div> 
+ <div align=center><img src="./result/tflite_float16_inference.jpg" width="300"/></div> 
+ 
+ ##### TFLITE MODEL OUTPUT(INTEGER QUANTIZATION)
+ 
+ <div align=center><img src="./result/tflite_int_inference.jpg" width="300"/></div> 
  
  ### TFLITE PROFILER BENCHMARKS
  
