@@ -61,3 +61,5 @@ Some portions of the code are taken from [this repo](https://github.com/clovaai/
   year={2019}
 }
 ```
+
+If you found this project helpful or you learned something consider starring the repo.
