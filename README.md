@@ -41,6 +41,12 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  
  <div align=center><img src="./scripts/result/res_000.jpg" width="300"/></div> 
  
+ ### TFLITE PROFILER BENCHMARKS
+ 
+ ##### DYNAMIC QUANTIZED TFLITE MODEL
+ 
+  <div align=center><img src="./benchmark_images/tflite_dynamic.png" width="600"/></div> 
+
 ### References
 
 Some portions of the code are taken from [this repo](https://github.com/clovaai/CRAFT-pytorch)
@@ -55,3 +61,5 @@ Some portions of the code are taken from [this repo](https://github.com/clovaai/
   year={2019}
 }
 ```
+
+If you found this project helpful or you learned something consider starring the repo.
