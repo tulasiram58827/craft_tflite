@@ -31,9 +31,15 @@ The CRAFT model is a text detector that effectively detect text area by explorin
     ├──  craft_mlt_25k.pth       --> Model trained on SynthText, IC13, IC17
     ├──  craft.tflite            --> TFLite Model (Dynamic Quantization)
     ├──  craft_float16.tflite    --> TFLite Model(Float16 Quantization)
+    east
+      ├── east_float_320.tflite  ---> East Model with 320X320 input dimension.
+      ├── east_float_640.tflite  ---> East Model with 640X416 input dimension.
+      ├── east_float_1280.tflite ---> East Model with 1280X800 input dimension.
  ```
  
  Pretrained model can be downloaded from [here](https://drive.google.com/uc?export=download&id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
+ 
+ EAST Models are created from this [Notebook](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite/blob/master/EAST_TFLite.ipynb)
  
  ### OCR
  
