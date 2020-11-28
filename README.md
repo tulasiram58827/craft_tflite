@@ -8,6 +8,11 @@ The CRAFT model is proposed in this [paper](https://arxiv.org/abs/1904.01941).
 
 The CRAFT model is a text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores.
 
+### BLOGS
+
+- [Converting CRAFT to TFLite: A Guide to PyTorch-TFLite Conversion](https://tulasi.dev/craft-in-tflite)
+- [A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST](https://sayak.dev/optimizing-text-detectors/)
+
 ### Installation
 
 `pip install -r requirements.txt`
