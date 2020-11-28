@@ -4,10 +4,18 @@ This is the github repository for converting craft pretrained model to tflite ve
 
 The CRAFT model is proposed in this [paper](https://arxiv.org/abs/1904.01941).
 
-# About CRAFT
+### About CRAFT
 
 The CRAFT model is a text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores.
 
+### BLOGS
+
+- [Converting CRAFT to TFLite: A Guide to PyTorch-TFLite Conversion](https://tulasi.dev/craft-in-tflite)
+- [A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST](https://sayak.dev/optimizing-text-detectors/)
+
+### Installation
+
+`pip install -r requirements.txt`
 
 ### About the files
  ```
@@ -26,6 +34,10 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  ```
  
  Pretrained model can be downloaded from [here](https://drive.google.com/uc?export=download&id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
+ 
+ ### OCR
+ 
+ For TFLite Models of OCR please find this [Repository](https://github.com/tulasiram58827/ocr_tflite)
   
  ### Results
  
@@ -40,10 +52,7 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  ##### TFLITE MODEL OUTPUT(FLOAT 16 QUANTIZATION)
  
  <div align=center><img src="./result/tflite_float16_inference.jpg" width="300"/></div> 
- 
- ##### TFLITE MODEL OUTPUT(INTEGER QUANTIZATION)
- 
- <div align=center><img src="./result/tflite_int_inference.jpg" width="300"/></div> 
+
  
  ### TFLITE PROFILER BENCHMARKS
  
