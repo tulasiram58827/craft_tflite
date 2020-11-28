@@ -34,6 +34,10 @@ The CRAFT model is a text detector that effectively detect text area by explorin
  ```
  
  Pretrained model can be downloaded from [here](https://drive.google.com/uc?export=download&id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
+ 
+ ### OCR
+ 
+ For TFLite Models of OCR please find this [Repository](https://github.com/tulasiram58827/ocr_tflite)
   
  ### Results
  
